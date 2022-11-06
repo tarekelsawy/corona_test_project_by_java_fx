@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="763.0" prefWidth="515.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.ResulteController">
+    <stylesheets>
+        <URL value="@resulte.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="250.0" fitWidth="300.0" layoutX="142.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: red;" AnchorPane.leftAnchor="142.0" AnchorPane.rightAnchor="141.30442810058594">
+         <image>
+            <Image url="@../photo/132987090_215641940280556_1805806807198657647_n.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="58.0" layoutY="302.0" prefHeight="50.0" prefWidth="100.0" text="النتيجه" AnchorPane.leftAnchor="58.0" AnchorPane.rightAnchor="57.0">
+         <font>
+            <Font size="29.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="58.0" layoutY="352.0" prefHeight="124.0" prefWidth="400.0" text="انت تعاني من انفلونزا موسمية ولا داعي للخوف ؛ ولكن عليك زيارة الطبيب" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="58.0" AnchorPane.rightAnchor="57.0" />
+      <Button layoutX="23.0" layoutY="553.0" maxWidth="469.0" mnemonicParsing="false" onAction="#Restart" prefHeight="60.0" prefWidth="469.0" text="شكرا" textAlignment="RIGHT" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="23.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

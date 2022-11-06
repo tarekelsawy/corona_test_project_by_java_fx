@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="hospitalpane" prefHeight="763.0" prefWidth="515.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.HospitalController">
+    <stylesheets>
+        <URL value="@hospital.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="189.0" fitWidth="191.0" layoutX="163.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="163.0">
+         <image>
+            <Image url="@../photo/120018648_896866610838854_362246993059898482_n.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="hospitalTextField" alignment="CENTER" layoutX="23.0" layoutY="354.0" prefHeight="55.0" prefWidth="469.0" promptText="Enter Hospital" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="23.0">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Button layoutX="23.0" layoutY="439.0" mnemonicParsing="false" onAction="#loadFindHospital" prefHeight="55.0" prefWidth="469.0" text="Search">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="47.0" layoutY="681.0" mnemonicParsing="false" onAction="#loadChoose" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" text="&lt;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="hospitalLabel" layoutX="33.0" layoutY="409.0" prefHeight="21.0" prefWidth="450.0" />
+   </children>
+</AnchorPane>

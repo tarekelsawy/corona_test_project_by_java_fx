@@ -1,0 +1,42 @@
+.root
+{
+  -fx-background-color:#ffe9e3;  
+}
+.testlable 
+{
+    -fx-background-color:#7c73e6;
+    -fx-text-fill:#fafafa;
+    -fx-padding:10px;
+    -fx-background-radius:15px;
+}
+.pagenum
+{
+     -fx-background-color:#c4c1e0;
+     -fx-background-radius:10px;
+  -fx-text-fill:white;
+  -fx-padding:5px;
+  -fx-font-size:22px;
+  -fx-font-weight:bold; 
+  -fx-font-family:system;
+}
+Label
+{
+    -fx-background-color:#c4c1e0;
+     -fx-background-radius:10px;
+  -fx-text-fill:white;
+  -fx-padding:5px;
+  -fx-font-size:22px;
+  -fx-font-weight:bold; 
+  -fx-font-family:system;
+}
+Button
+{
+   -fx-background-color:#00416d;
+  -fx-background-radius:50px;
+  -fx-text-fill:white;
+  -fx-padding:5px;
+  -fx-font-size:22px;
+  -fx-font-weight:bold; 
+  -fx-font-family:system;
+  
+}
